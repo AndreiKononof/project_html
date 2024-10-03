@@ -5,12 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт тест</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-</h6>
 <body>
-    <div class="header-one">
-        <h1 class="header-title">Кононов Андрей</h1>
-        <p class="header-subtitle">фрилансер, java разработчик</p>
-    </div>
+    <header class="header-one" id="header">
+        <h1 class="header-title">Web-приложение</h1>
+        <p class="header-subtitle">Расчет показателей баланса электроэнергии </p>
+        <a href="#portfolio" class="header-arrow"> <img src="./imagen/keyboard_arrow_down_48dp_E8EAED_FILL0_wght400_GRAD0_opsz48.svg" alt="arrow">
+        </a>
+    </header>
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="conteiner">
+                <h2 class="portfolio-header" > Портфолио</h2>
+                <!-- Portfolio-->
+                <div class="portfolio-cards-wrapper">
+                    <!-- Card-->
+                    <div class="card">
+                        <a href="index2.html" class="card-link">
+                            <img class="card-img" src="./imagen/portfolio/portf-1.jpg" alt="imagen">
+                            <h3 class="card-title">Многостраничный сайта</h3>
+                            <p>Верстка многостраничного сайта</p>
+                        </a>
+                    </div>
+                    <!-- // Card-->
+
+                    <!-- Card-->
+                    <div class="card">
+                        <a href="index2.html" class="card-link">
+                            <img class="card-img" src="./imagen/portfolio/portf-2.jpg" alt="imagen">
+                            <h3 class="card-title">Работы</h3>
+                            <p>Ссылки на работы</p>
+                        </a>
+                    </div>
+                    <!-- // Card-->
+
+                    <!-- Card-->
+                    <div class="card">
+                        <a href="index2.html" class="card-link">
+                            <img class="card-img" src="./imagen/portfolio/portf-3.jpg" alt="imagen">
+                            <h3 class="card-title">Крупный проект по Java</h3>
+                            <p>Тестовый интерфейс и пример работы сервиса</p>
+                        </a>
+                    </div>
+                    <!-- // Card-->
+
+                    <!-- Card-->
+                    <div class="card">
+                        <a href="index2.html" class="card-link">
+                            <img class="card-img" src="./imagen/portfolio/portf-4.jpg" alt="imagen">
+                            <h3 class="card-title">Отзывы</h3>
+                            <p>Отзывы клиетов</p>
+                        </a>
+                    </div>
+                    <!-- // Card-->
+
+                </div>
+                <!-- //Portfolio -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-row">
+                <div class="footer-copyright footer-col" >
+                    <div class="footer-copyright-name"> Тестовый текс</div>
+                    <p>HTML верстка иразработка сайтов</p>
+                </div>
+                <!-- Footer icons-->    
+                <div class="footer-icons footer-col">
+                    <p>Мои портфолио</p>
+                    <div class="footer-icons-row">
+                        <a href="#">
+                            <div class="footer-icons">
+                                <img src="./imagen/icons/person.svg" alt="icon">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-icons">
+                                <img src="./imagen/icons/group.svg" alt="icon">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-icons">
+                                <img src="./imagen/icons/share.svg" alt="icon">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-icons">
+                                <img src="./imagen/icons/thumb.svg" alt="icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- // Footer icons-->
+                <div class="footer-contacs footer-col">
+                    <a href="https://dzen.ru/webcademy" class="footer-button"> Связаться с нами</a>
+                    <p>Напиши мне для того что бы узнать стоимость </p>
+                </div> 
+            </div>
+        </div>
+    </footer>
+
+    <!-- Библиотеки и плагины-->
+     <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+     <script src="./libs/vide/jquery.vide.min.js"></script>
+     <!-- Собственный скрипт-->
+      <script src="./js/main.js"></script>
 </body>
 </html>
